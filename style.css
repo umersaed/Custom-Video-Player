@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.player{
+    width: 95%;
+
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background-color: #dedede;
+}
+
+.player__video{
+    width: 100%;
+}
+
+button{
+
+    padding: 5px;
+    background-color: aliceblue;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+.player__slider{
+    width: 80%;
+}
+
+.volume__slider{
+
+    background-color: aqua;
+
+}
